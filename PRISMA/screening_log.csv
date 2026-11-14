@@ -1,0 +1,7 @@
+database,total_identified,duplicates_removed,screened_titles_abstracts,full_text_assessed,included_studies
+IEEE Xplore,142,32,110,24,10
+ACM Digital Library,118,26,92,20,9
+USENIX Association,95,21,74,18,8
+Scopus,90,20,70,16,8
+Web of Science,75,15,60,13,6
+Total,520,114,406,91,41
