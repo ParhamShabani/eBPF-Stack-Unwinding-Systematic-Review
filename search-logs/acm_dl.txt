@@ -1,0 +1,5 @@
+Database: ACM Digital Library
+Date of Search: November 2026
+Search String: ("eBPF" OR "kernel telemetry") AND ("stack unwinding" OR "call stack reconstruction") AND ("DWARF" OR "debug metadata") AND ("-fomit-frame-pointer")
+Records Retrieved: 118
+Export Format: CSV
