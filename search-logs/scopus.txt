@@ -1,0 +1,5 @@
+Database: Scopus
+Date of Search: November 2026
+Search String: ("eBPF" OR "Extended Berkeley Packet Filter") AND ("stack unwinding" OR "stack walking") AND ("DWARF" OR "ORC unwinder") AND ("-fomit-frame-pointer" OR "compiler optimization")
+Records Retrieved: 90
+Export Format: CSV / RIS
