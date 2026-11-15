@@ -3,7 +3,7 @@
 
 [![PRISMA 2020](https://img.shields.io/badge/PRISMA-2020%20Compliant-blue.svg)](https://www.prisma-statement.org/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Archived Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Archived Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24235281-blue)](https://doi.org/10.5281/zenodo.24235281)
 
 This repository contains the complete supplementary materials, search strings, screening protocols, and data extraction matrices for the systematic literature review titled **"A Systematic Review of Stack Unwinding Mitigations for eBPF-Based Telemetry Under `-fomit-frame-pointer` Optimization"**. 
 
