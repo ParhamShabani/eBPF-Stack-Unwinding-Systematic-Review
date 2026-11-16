@@ -95,12 +95,11 @@ python3 scripts/prisma_metrics.py
 If you reference this dataset, protocol, or review findings in your research, please cite the paper as follows:
 
 ```bibtex
-@article{shabani2026systematic,
-  author    = {Parham Shabani},
+@article{Shabani2026,
+  author    = {P. Shabani},
   title     = {A Systematic Review of Stack Unwinding Mitigations for eBPF-Based Telemetry Under \texttt{-fomit-frame-pointer} Optimization},
   journal   = {IEEE Access},
   year      = {2026},
-  volume    = {11},
   pages     = {1--16},
   doi       = {10.1109/ACCESS.2026.XXXXXXX}
 }
