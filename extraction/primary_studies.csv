@@ -1,11 +1,11 @@
 ref_id,authors,year,paradigm,focus_area,overhead,resolution
 10138542,Soldani et al.,2023,Observability,Cloud-native telemetry framework in 5G/6G,Minimal,Stack Truncated
-aramide2024provenance,Aramide,2024,Data Plane,P4 & eBPF optimization for AI/ML,2-4 percent CPU,Frame Pointer Dependent
-sahraei2023xfass,Sahraei et al.,2023,Serverless,Hyperscale profiling in XFaaS (Meta),Low,High Completeness
-li2021threat,Li et al.,2021,Provenance,Threat detection via system provenance,Moderate,FP Dependent
-bastian2019reliable,Bastian et al.,2019,DWARF CFI,Fast DWARF synthesis & compilation,11-25x Speedup,99 percent Recovery
-sun2024validating,Sun & Su,2024,Verification,State embedding for BPF verifier validation,N/A,Static Bound Proof
-shahinfar2025demystifying,Shahinfar et al.,2025,Network BPF,Performance isolation & verifier limits,Variable,Boundary Limited
-xing2024hybrid,Xing et al.,2024,Hybrid Tracing,Container syscall profiling & seccomp,<3 percent CPU,Full Stack
-jia2025rex,Jia et al.,2025,Verifier/Rex,Language-verifier gap resolution,Low,Safe Unwinding
-nelson2019scaling,Nelson et al.,2019,Verification,Automated system verification via Serval,N/A,Formal Proof
+aramide2024programmable,Aramide,2024,Data Plane,P4 & eBPF optimization for AI/ML,2-4% CPU,Frame Pointer Dependent
+10.1145/3600006.3613155,Sahraei et al.,2023,Serverless,Hyperscale profiling in XFaaS (Meta),Low,High Completeness
+LI2021102282,Li et al.,2021,Provenance,Threat detection via system provenance,Moderate,FP Dependent
+10.1145/3360572,Bastian et al.,2019,DWARF CFI,Fast DWARF synthesis & compilation,11-25x Speedup,99% Recovery
+298730,Sun & Su,2024,Verification,State embedding for BPF verifier validation,N/A,Static Bound Proof
+10.1145/3749216,Shahinfar et al.,2025,Network BPF,Performance isolation & verifier limits,Variable,Boundary Limited
+10105304,Xing et al.,2024,Hybrid Tracing,Container syscall profiling & seccomp,<3% CPU,Full Stack
+308452,Jia et al.,2025,Verifier/Rex,Language-verifier gap resolution,Low,Safe Unwinding
+10.1145/3341301.3359641,Nelson et al.,2019,Verification,Automated system verification via Serval,N/A,Formal Proof
