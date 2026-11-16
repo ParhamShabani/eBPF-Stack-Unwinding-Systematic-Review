@@ -12,7 +12,7 @@ This repository contains the complete supplementary materials, search strings, s
 ##  Repository Overview
 
 Extended Berkeley Packet Filter (eBPF) telemetry pipelines rely heavily on accurate call-chain reconstruction. However, aggressive compiler optimizations—specifically `-fomit-frame-pointer`—sever traditional frame-pointer chains, leading to truncated stacks and telemetry degradation in production environments.
-This repository provides a fully reproducible artifact package adhering strictly to **PRISMA 2020 guidelines**, evaluating alternative state-reconstruction mechanisms (including DWARF CFI tables, ORC unwinders, compact metadata structures, and out-of-band asynchronous tracing) across peer-reviewed literature published between January 2020 and October 2026.
+This repository provides a fully reproducible artifact package adhering strictly to **PRISMA 2020 guidelines**, evaluating alternative state-reconstruction mechanisms (including DWARF CFI tables, ORC unwinders, compact metadata structures, and out-of-band asynchronous tracing) across peer-reviewed literature published between January 2019 and October 2026.
 
 ---
 
@@ -30,7 +30,7 @@ This repository provides a fully reproducible artifact package adhering strictly
 │   ├── scopus.txt          # Search string and export log for Scopus
 │   └── wos.txt             # Search string and export log for Web of Science
 ├── extraction/             # Data extraction and quality appraisal matrices
-│   ├── primary_studies.csv # Synthesized metadata for included studies (n = 41)
+│   ├── primary_studies.csv # Synthesized metadata for included studies (n = 38)
 │   └── quality_appraisal.csv# Risk of bias and methodological rigor assessments
 ├── scripts/                # Analysis and automation utilities
 │   └── prisma_metrics.py   # Script for aggregating search screening totals
@@ -40,9 +40,9 @@ This repository provides a fully reproducible artifact package adhering strictly
 
 ---
 
-##  PRISMA Search & Screening Methodology
+## PRISMA Search & Screening Methodology
 
-The review executed a systematic search across five primary digital libraries (`IEEE Xplore`, `ACM Digital Library`, `USENIX Association`, `Scopus`, and `Web of Science`), yielding an initial pool of $520$ raw records. Following duplicate removal ($114$ records pruned) and multi-pass PRISMA screening, a final corpus of **$41$ synthesized studies** ($n_1 = 11$ peer-reviewed archival papers and $n_2 = 30$ supporting architectural references/technical documents) was established.
+The review executed a systematic search across five primary digital libraries (`IEEE Xplore`, `ACM Digital Library`, `USENIX Association`, `Scopus`, and `Web of Science`), yielding an initial pool of $520$ raw records. Following duplicate removal ($114$ records pruned) and multi-pass PRISMA screening, a final corpus of **$38$ synthesized studies** ($n_1 = 10$ peer-reviewed archival papers and $n_2 = 28$ supporting architectural references/technical documents) was established.
 
 ### Master Search Query String
 
@@ -101,7 +101,7 @@ If you reference this dataset, protocol, or review findings in your research, pl
   journal   = {IEEE Access},
   year      = {2026},
   volume    = {11},
-  pages     = {1--17},
+  pages     = {1--16},
   doi       = {10.1109/ACCESS.2026.XXXXXXX}
 }
 
